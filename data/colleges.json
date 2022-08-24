@@ -1,0 +1,15 @@
+[
+    {
+       "id": "col-101",
+       "name": "UoM",
+       "location": "Colombo",
+       "rating":5.0
+    },
+    
+    {
+       "id": "col-102",
+       "name": "UoP",
+       "location": "Kandy",
+       "rating":4.5
+    }
+ ]

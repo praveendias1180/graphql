@@ -1,0 +1,28 @@
+[
+    {
+       "id": "S1001",
+       "firstName":"Praveen",
+       "lastName":"Dias",
+       "email": "praveendias1180@gmail.com",
+       "password": "pass123",
+       "collegeId": "col-102"
+    },
+    
+    {
+       "id": "S1002",
+       "email": "kalum@jayawardena.com",
+       "firstName":"Kalum",
+       "lastName":"Jayawardena",
+       "password": "pass456",
+       "collegeId": "col-101"
+    },
+    
+    {
+       "id": "S1003",
+       "email": "raniljayalath@graphql.com",
+       "firstName":"Ranil",
+       "lastName":"Jayalath",
+       "password": "pass789",
+       "collegeId": "col-101"
+    }
+ ]
