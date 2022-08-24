@@ -3,7 +3,16 @@ const Query = {
    greeting:() => {
       return "Hello, Praveen"
    },
-   students:() => db.students.list()
+   students:() => db.students.list(),
+   studentById:(root,args,context,info) => {
+    return db.students.get(args.id);
+ }
 }
 
-module.exports = {Query}
+const Student = {
+    fullName:(root,args,context,info) => {
+       return root.firstName+":"+root.lastName
+    }
+ }
+
+module.exports = {Query, Student}
