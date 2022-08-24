@@ -13,3 +13,7 @@ https://graphql.org/
 # Nested Queries
 
 ![](nested-query.png)
+
+# GraphQL Mutations
+
+![](mutations.png)

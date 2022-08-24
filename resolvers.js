@@ -9,6 +9,14 @@ const Query = {
  }
 }
 
+const Mutation = {
+    createStudent:(root,args,context,info) => {
+       return db.students.create({collegeId:args.collegeId,
+       firstName:args.firstName,
+       lastName:args.lastName})
+    }
+}
+
 const Student = {
     fullName:(root,args,context,info) => {
        return root.firstName+":"+root.lastName
@@ -18,4 +26,4 @@ const Student = {
      }
  }
 
-module.exports = {Query, Student}
+module.exports = {Query, Student, Mutation}
