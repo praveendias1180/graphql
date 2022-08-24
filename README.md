@@ -5,3 +5,7 @@ GraphQL is a query language for your API, and a server-side runtime for executin
 https://graphql.org/
 
 ![](graphql.png)
+
+# test GraphQL
+
+![](test-success.png)
